@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPortfolio.GITHUB"
+             Title="GITHUB"
+             BackgroundColor="Black"
+             >
+    <VerticalStackLayout BackgroundColor="Black">       
+        
+        <Label 
+            Text="My GitHub"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="20"
+            FontSize="100"
+            TextColor="Gold"
+            FontFamily="times new roman"
+            />
+   
+            <Label           
+            Text="https://github.com/aligulfaam?tab=repositories"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+                BackgroundColor="Gold"
+                TextColor="Black"
+                FontSize="30"
+                FontFamily="times new roman"
+                />
+        
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Button 
+            Text="To Contact Page" 
+            x:Name="BtncontactPage" 
+            Clicked="BtncontactPage_Clicked"
+            BackgroundColor="Black"
+            TextColor="Gold"
+            Margin="20"
+            BorderColor="Gold"
+            FontSize="35"
+            FontFamily="times new roman"
+            />
+        <Button 
+            Text="Return to Previous Page" 
+            x:Name="BtnPrevious" 
+            Clicked="BtnPrevious_Clicked"
+            BackgroundColor="Black"
+            TextColor="Gold"
+            FontFamily="times new roman"
+            BorderColor="Gold"
+            FontSize="35"
+            Margin="20"
+            />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

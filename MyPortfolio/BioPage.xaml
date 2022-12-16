@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPortfolio.BioPage"
+             Title="BioPage"
+             BackgroundColor="Black"
+             >
+    <VerticalStackLayout >        
+        
+        <Label 
+            Text="About Me"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="Gold"
+            Margin="20"
+            FontSize="200"
+            />
+        <Label
+            Text="My Name is Gulfaam Ali I am 17 years old and Im a Sofware Engineering Student In MCCTC"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="Gold"
+            Margin="10"
+            FontSize="30"
+            FontFamily="times new roman"
+            />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Button 
+            Text="To Github Page" 
+            x:Name="BtngitHub" 
+            Clicked="BtngitHub_Clicked"
+            BackgroundColor="Black"
+            TextColor="Gold"
+            BorderColor="Gold"
+            Margin="10"
+            FontSize="25"
+            FontFamily="times new roman"
+            />
+        <Button 
+            Text="Return to Previous Page" 
+            x:Name="BtnPrevious" 
+            Clicked="BtnPrevious_Clicked"
+            BackgroundColor="Black"
+            TextColor="Gold"
+            BorderColor="Gold"
+            Margin="10"
+            FontSize="25"
+            FontFamily="times new roman"
+            />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

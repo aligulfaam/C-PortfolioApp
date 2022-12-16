@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPortfolio.MainPage"
+             BackgroundColor="Black"
+             >
+
+    <ScrollView>
+        
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label
+                Text="My Portfoilio"
+                BackgroundColor="Gold"
+                FontSize="100"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                WidthRequest="500"
+                FontFamily="times new roman"
+                />
+            <Button Text="Next Page" x:Name="bioPage" Clicked="bioPage_Clicked"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    BorderColor="Gold"
+                    WidthRequest="300"
+                    FontFamily="times new roman"
+                    FontSize="35"
+                    />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

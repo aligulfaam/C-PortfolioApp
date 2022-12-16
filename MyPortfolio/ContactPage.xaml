@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPortfolio.ContactPage"
+             Title="ContactPage"
+             BackgroundColor="Black"
+             >
+    <VerticalStackLayout>
+
+        <Label 
+            Text="How to Contact me:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="Gold"
+            Margin="20"
+            FontSize="100"
+            FontFamily="times new roman"
+            />
+
+        <Label
+            Text="Gmail: Gulfaam.ali2005@gmail.com"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="Black"
+            TextColor="Gold"
+            Margin="20"
+            FontSize="35"
+            FontFamily="times new roman"
+            />
+        <Label
+            Text="Phone Number: 330-926-4000"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="Black"
+            TextColor="Gold"
+            Margin="20"
+            FontSize="35"
+            FontFamily="times new roman"
+            />
+        <Label
+            Text="Address: 7300 North Palmyra Road Canfield, OH 44406"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="Black"
+            TextColor="Gold"
+            Margin="20"
+            FontSize="50"
+            FontFamily="times new roman"
+            />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            
+        <Button Text="Return to Previous" x:Name="BtnPrevious" Clicked="BtnPrevious_Clicked"
+                BackgroundColor="Black"
+                TextColor="Gold"
+                Margin="20"
+                FontSize="35"
+                FontFamily="times new roman"
+                BorderColor="gold"
+                />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
